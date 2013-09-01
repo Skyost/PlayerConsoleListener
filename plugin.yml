@@ -1,0 +1,16 @@
+name: ConsolePlayerListener
+main: com.skyost.pcl.ConsolePlayerListenerPlugin
+description: Listen every messages from console in 50 lines of code !
+version: 0.3
+author: Skyost
+website: http://www.imc-bans.eu/
+commands:
+ listen:
+  aliases: l
+  description:  Listen console messages.
+  usage: Simply type /listen start, /listen st, /l start or /l st to start listening and /listen stop, /listen sp, /l stop or /l sp to stop listening.
+  permission: console.playerlistener.listen
+permissions:
+ console.playerlistener.listen:
+  default: op
+  description: Allow you to listen the console !
